@@ -20,7 +20,7 @@ Installation
 #. Hook up URLConf. Do this by pointing a given URL at the ``tools.urls`` method. In this example, we register the default ``Tools`` instance ``object_tools.tools`` at the URL ``/object-tools/``::
     
     # urls.py
-    from django.conf.urls.defaults import *
+    from django.conf.urls import *
 
     import object_tools
 

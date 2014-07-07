@@ -59,7 +59,7 @@ class ObjectTools(object):
                 self._registry[model] = [object_tool_class(model), ]
 
     def get_urls(self):
-        from django.conf.urls.defaults import patterns, url, include
+        from django.conf.urls import patterns, url, include
 
         urlpatterns = patterns('',)
 
